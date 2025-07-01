@@ -1,0 +1,52 @@
+# Ignore build results
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+
+# Ignore Rider project files
+.idea/
+
+# Ignore VS Code project files
+.vscode/
+
+# Ignore Visual Studio temporary files, build results, and user-generated files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore NuGet packages
+*.nupkg
+# If using packages folder (for older projects)
+packages/
+# NuGet v3+
+project.lock.json
+project.assets.json
+
+# Ignore auto-generated files
+*.Generated.cs
+
+# Ignore debug/release configurations
+*.dll
+*.exe
+*.pdb
+
+# Ignore log files
+*.log
+
+# Ignore crash dumps
+*.dmp
+
+# Ignore ReSharper and Rider files
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore raylib-cs binaries if manually added (optional, since you used NuGet)
+raylib.dll
+raylib.lib
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
